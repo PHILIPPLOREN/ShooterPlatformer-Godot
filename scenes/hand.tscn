@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpejmvak57ugk"]
+
+[sub_resource type="Gradient" id="Gradient_1gd3j"]
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_eyfoh"]
+gradient = SubResource("Gradient_1gd3j")
+width = 4
+height = 4
+
+[node name="Hand" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-8, 0)
+scale = Vector2(4, 1)
+texture = SubResource("GradientTexture2D_eyfoh")
+offset = Vector2(2, 0)
